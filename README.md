@@ -24,10 +24,12 @@ Returns the current version of the API
 Verifies if metadata has been imported correctly.
 
 #### Parameters
-- doi - e.g. doi:10.5072/FK2/1YCZOL - DOI of the dataset
-- metadata - [link to example](https://guides.dataverse.org/en/latest/_downloads/4e04c8120d51efab20e480c6427f139c/dataset-create-new-all-default-fields.json)  - The metadata describing a dataset in JSON formatted for Dataverse
-- base_url - e.g. _https://portal.odissei.nl/_ - The URL of the Dataverse instance
-- api_token - e.g. _12345678-ab12-12ab-abcd-a1b2c3d4e5g6_ - API token of the specific Dataverse- 
+
+- "doi": "hdl:10622/8KCCXB",
+- "source_url": "https://datasets.iisg.amsterdam",
+- "source_api_token": "46f3b381-6d58-461a-8b46-b884a1bdc1f0",
+- "destination_url": "http://localhost:8080",
+- "destination_api_token": "7322d16a-beb1-48c7-92ec-a278015cbd52"
 
 > Tip: login to the Dataverse instance as admin and click your username in the top right to find your token
 
